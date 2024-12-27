@@ -1,6 +1,6 @@
 
 
-```markdown
+
 # Git Workflow Guide 
 
 This guide will walk you through a basic Git workflow to add new features, create pull requests, and manage branches effectively.
@@ -135,7 +135,7 @@ Follow steps 7–9 to create a pull request, request reviews, and merge the chan
 
 
 
-```markdown
+
 # Poetry Installation and Project Setup Guide
 
 This guide explains how to install Poetry on Windows, set up a virtual environment, and manage a Django project.
@@ -268,7 +268,7 @@ python manage.py seed
 
 
 
-```markdown
+
 # PNPM Installation and Frontend Project Setup Guide
 
 This guide explains how to install `pnpm` on Windows and set up a frontend project.
