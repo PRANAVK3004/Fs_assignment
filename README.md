@@ -134,7 +134,23 @@ Follow steps 7–9 to create a pull request, request reviews, and merge the chan
 - Keep your main branch clean and deployable.
 
 
+# Setting up .env file
+Go to https://clerk.com ,Create your own account and application.
+Fetch the API key  and add it to the .env file in the backend folder.
+```bash
+CLERK_FRONTEND_API_URL=
+CLERK_SECRET_KEY=your_api_key
+TEST_SHOPKEEPER_TOKEN=
+TEST_FACTORYOWNER_TOKEN=
 
+```
+You will get CLERK_FRONTEND_API_URL from Application>>Configure>>Domains in your application on clerk website.
+Also,create one more .env file in the frontend folder
+```bash
+EXPO_PUBLIC_BACKEND_URL='http://10.0.2.2:8000'
+EXPO_PUBLIC_BACKEND_URL_SUFFIX='/api'
+EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY="your_apikey from clerk"
+```
 
 # Poetry Installation and Project Setup Guide
 
